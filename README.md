@@ -62,6 +62,11 @@ Public URL: http://65.0.29.11
 
 Successfully deployed a Linux EC2 web server using Terraform. Apache was installed automatically during instance initialization, and the webpage was accessible through the EC2 public IP.
 
+
+## Branching Policy
+
+Infrastructure changes are developed in feature branches and merged into the main branch through Pull Requests. This workflow helps maintain version control, review changes, and prevent direct modifications to the main branch.
+
 ## Version Control Workflow
 
 This project uses Git for version control.
@@ -69,4 +74,4 @@ This project uses Git for version control.
 - Main branch contains the stable version.
 - Feature branches are used for development.
 - Changes are committed and pushed to GitHub.
-- Pull Requests are created to review and merge changes into the main branch.
+- Pull Requests are created to review and merge changes into the main branch
