@@ -61,3 +61,12 @@ Public URL: http://65.0.29.11
 ## Outcome
 
 Successfully deployed a Linux EC2 web server using Terraform. Apache was installed automatically during instance initialization, and the webpage was accessible through the EC2 public IP.
+
+## Version Control Workflow
+
+This project uses Git for version control.
+
+- Main branch contains the stable version.
+- Feature branches are used for development.
+- Changes are committed and pushed to GitHub.
+- Pull Requests are created to review and merge changes into the main branch.
