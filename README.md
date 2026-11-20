@@ -61,3 +61,7 @@ Public URL: http://65.0.29.11
 ## Outcome
 
 Successfully deployed a Linux EC2 web server using Terraform. Apache was installed automatically during instance initialization, and the webpage was accessible through the EC2 public IP.
+
+## Branching Policy
+
+Infrastructure changes are developed in feature branches and merged into the main branch through Pull Requests. This workflow helps maintain version control, review changes, and prevent direct modifications to the main branch.
